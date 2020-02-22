@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nexports.__esModule = true;\nconsole.log(\"hello\");\n\n\n//# sourceURL=webpack:///./src/typescript/packages/Sandbox-01.ts?");
+eval("\nexports.__esModule = true;\nvar GRID = document.getElementById(\"click-grid\");\n// Render items into Grid;\nconsole.log(\"GIRD:\", GRID);\nvar content = \"<div class='grid-box'></div>\";\nGRID.innerHTML = content;\n\n\n//# sourceURL=webpack:///./src/typescript/packages/Sandbox-01.ts?");
 
 /***/ }),
 
