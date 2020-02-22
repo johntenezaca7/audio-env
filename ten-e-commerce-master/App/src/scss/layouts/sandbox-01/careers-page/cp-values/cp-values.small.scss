@@ -1,0 +1,12 @@
+@import "../../../components/grid/grid.small.scss";
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--values {
+      position: relative;
+      height: 65rem;
+      margin-bottom: 5rem
+    }
+  }
+}

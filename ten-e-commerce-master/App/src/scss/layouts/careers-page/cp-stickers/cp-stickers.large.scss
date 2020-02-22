@@ -1,0 +1,127 @@
+$block: "careers-page";
+
+.#{$block} {
+  position: relative;
+
+  &__sticker-wrapper {
+    position: relative;
+
+    &--mtm {
+      height: 2rem;
+    }
+
+    &--mission {
+      height: 0rem;
+      background-color: $greyWhite;
+    }
+
+    &--gb {
+      height: 0rem;
+    }
+
+    .#{$block} {
+      &__r-side-green {
+        width: 20rem;
+        height: 35rem;
+      }
+
+
+      &__mtm-p-a  {
+        width: calc(100% / 2.5);
+        position: relative;
+        top: -16rem;
+        left: -14rem;
+      }
+
+      &__mtm-p-b {
+        width: calc(100% / 2.5);
+        position: absolute;
+        top: -72rem;
+        right: -8rem;
+      }
+
+      &__m_1 {
+        position: relative;
+        width: calc(100% / 2 );
+        height: 8rem;
+        z-index: 1;
+        top: 0rem;
+      }
+
+      &__m_2 {
+        display: none;
+      }
+
+      &__small-m_2 {
+        display: block;
+        position: absolute;
+        top: -22rem;
+        left: 0;
+
+        width: 3rem;
+        height: 28rem;
+
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__p_1 {
+        position: absolute;
+        top: -8rem;
+        right: -1rem;
+        width: 6rem;
+        height: 18rem;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__p_2 {
+        position: absolute;
+        top: -28rem;
+        left: 0;
+        width: 6.5rem;
+        height: 34rem;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__sic_1 {
+        top: -12rem;
+      }
+
+      &__sic_2 {
+        top: -2rem;
+      }
+
+      &__sic_3 {
+        display: none;
+      }
+
+      &__sic_4 {
+        display: block;
+        height: 20rem;
+        right: -8rem;
+        top: 2rem;
+      }
+      
+      &__grey-blob {
+        position: relative;
+        width: 100%;
+        height: 5rem;
+        top: -6rem;
+      }
+    }
+  }
+}

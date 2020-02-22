@@ -1,0 +1,37 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--img-collage {
+      .#{$block} {
+        &__two-img-wrap {
+          height: rem-calc(525px);
+      
+          .#{$block} {
+            &__img-item-1 {
+              position: relative;
+              width: rem-calc(325px);
+              height: rem-calc(325px);
+            }
+
+            &__img-item-2 {
+              position: absolute;
+              top: rem-calc(65px);
+              right: rem-calc(45px);
+              width: rem-calc(300px);
+              height: rem-calc(425px)
+            }
+          }  
+        }
+  
+        &__single-img {
+          width: calc(100% / 1.1); // TODO: refactor this section :(
+          height: calc(100% / 2);
+          position: relative;
+          left: rem-calc(35px);
+          right: rem-calc(35px);
+        }
+      }
+    }
+  }
+}

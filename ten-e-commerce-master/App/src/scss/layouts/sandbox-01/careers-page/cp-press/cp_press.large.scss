@@ -1,0 +1,83 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--press {
+      .#{$block} {
+        &__title-wrapper {
+          h1 {
+            font-size: rem-calc(32px);
+          }
+          span {
+            margin-top: rem-calc(15px);
+          }
+        }
+
+        &__press-container { 
+      
+          .#{$block} {
+            &__press-item {
+
+              margin-bottom: $space;
+
+              max-width: 100%;
+
+              .#{$block} {
+                &__feat-logo {
+                  width: rem-calc(150px);
+                  margin-top: $space5;
+                  margin-bottom: $space5;
+
+                  img {
+                    width: 100%;
+                    height: 100%;
+
+                  }
+                }
+
+                &__feat-img {
+                  width: 100%;
+                  img {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+          #gma {
+            margin-bottom: 52px;
+            .#{$block} {
+              &__feat-logo {
+                padding: 0;
+                width: rem-calc(150px);
+                height: auto;
+                max-height: initial;
+                margin-bottom: 0;
+  
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+
+
+
+        &--tablet {
+          display: flex;
+          align-items: center;
+        }
+      
+        &__read-more {
+          a {
+            margin: 0;
+          }
+          margin-bottom: $space-mid;
+        }
+      }
+    }
+  }
+}

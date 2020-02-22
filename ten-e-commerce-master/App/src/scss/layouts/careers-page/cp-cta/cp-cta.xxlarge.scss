@@ -1,0 +1,21 @@
+$block: "careers-page";
+
+.#{$block} {  
+  &__container {
+    &--cta {
+      .#{$block} {
+        &__img-wrapper {
+
+          &--cta-img {
+            height: rem-calc(800px);
+          }
+        }
+        &__details-wrapper {
+          h1 {
+            font-size: 48px;
+          }
+        }
+      }
+    }
+  }
+}

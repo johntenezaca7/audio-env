@@ -1,0 +1,13 @@
+// Screensize: 641px
+@include small { 
+  @import "./cp-stickers/cp-stickers.small.scss";
+  @import "./cp-benefits/cp-benefits.small.scss";
+  @import "./cp-mission/cp-mission.small.scss";
+  @import "./cp-offices/cp-offices.small.scss";
+  @import "./cp-img-collage/cp-ic.small.scss";
+  @import "./cp-values/cp-values.small.scss";
+  @import "./cp-press/cp_press.small.scss";
+  @import "./cp-mtm/cp-mtm.small.scss";
+  @import "./cp-cta/cp-cta.small.scss";
+  @import "./cp-co/cp-co.small.scss";
+}

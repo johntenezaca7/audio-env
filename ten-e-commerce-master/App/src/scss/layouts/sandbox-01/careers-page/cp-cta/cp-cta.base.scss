@@ -1,0 +1,60 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--cta {
+      width: 100%;
+      background-color: $greyWhite;
+
+      .#{$block} {
+        &__img-wrapper {
+          width: 100%;
+          margin: auto;
+          z-index: 10;
+
+          &--cta-img {
+            background-image: url("http://static.misfitsmarket.com/images/Misfits_careers_cta_img.png");
+            background-color: #cccccc;
+            height: rem-calc(550px);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+
+        &__details-wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          z-index: 10;
+
+          width: 100%;
+          min-height: 18rem;
+
+          background-color: $greyWhite;
+
+          h1 {
+            font-size: 36px;
+            text-transform: capitalize;
+
+            span {
+              text-transform: lowercase;
+            }
+          }
+
+          a {
+            margin: $space4 0;
+            font-size: $fs_s;
+          }
+
+          button {
+            width: 22rem;
+            margin-top: 0.8rem;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

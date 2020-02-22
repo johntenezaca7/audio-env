@@ -1,0 +1,20 @@
+@import "../../../components/z-grid/zGrid.base.scss";
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--mtm {
+      position: relative;
+      .#{$block} {
+        &__title-wrapper {
+          h1 {
+            text-transform: uppercase;
+            letter-spacing: rem-calc(5px);
+            font-size: rem-calc(30px);
+            margin-bottom: rem-calc(30px);
+          }
+        }
+      }
+    }
+  }
+}

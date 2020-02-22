@@ -1,0 +1,33 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--img-collage {
+      .#{$block} {
+        &__two-img-wrap {
+          height: 55rem;
+      
+          .#{$block} {
+            &__img-item-1 {
+              width: rem-calc(450px);
+              height: rem-calc(450px);
+            }
+
+            &__img-item-2 {
+              top: rem-calc(65px);
+              right: rem-calc(15px);
+              width: 34rem;
+              height: 43rem;
+            }
+          }  
+        }
+  
+        &__single-img {
+          padding-left: 10rem;
+          width: calc(100% / 3); 
+          height: 100%;
+        }
+      }
+    }
+  }
+}

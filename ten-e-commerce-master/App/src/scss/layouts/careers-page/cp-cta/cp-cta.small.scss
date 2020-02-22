@@ -1,0 +1,38 @@
+$block: "careers-page";
+
+.#{$block} {  
+  &__container {
+    &--cta {
+      display: flex;
+      flex-direction: row;
+
+      .#{$block} {
+        &__details-wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          h1 {
+            font-size: rem-calc(26px);
+            text-transform: capitalize;
+
+            span {
+              text-transform: lowercase;
+            }
+          }
+
+          p {
+            text-decoration: underline;
+          }
+
+          button {
+            width: 16rem;
+            margin-top: 0.8rem;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

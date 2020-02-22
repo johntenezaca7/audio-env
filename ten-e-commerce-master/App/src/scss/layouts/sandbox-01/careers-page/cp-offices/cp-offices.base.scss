@@ -1,0 +1,72 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--offices {
+      background-color: white;
+      margin-bottom: $space;
+      
+      .#{$block} {
+        &__title-wrapper {
+          h1 {
+            margin-top: 2rem;
+            text-transform: uppercase;
+            letter-spacing: rem-calc(5px);
+            font-size: rem-calc(32px);
+          }
+      
+          .feature-rule {
+            margin: 30px auto 40px auto;
+          }
+        }
+      
+        &__locations-container {
+          display: flex;
+          flex-direction: column;
+      
+          .#{$block} {
+            &__location-wrapper {
+              .#{$block} {
+                &__img-wrapper {
+                  width: 100%;
+                  margin: auto;
+      
+                  img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: rem-calc(400px)
+                  }
+                }
+                &__details-wrapper {
+                  padding: 1rem 0;
+      
+                  .#{$block} {
+                    &__title {
+                      font-size: $fs_m;
+                      margin-top: $space2;
+                      margin-bottom: $space3;
+                      text-transform: capitalize;
+                    }
+      
+                    &__state {
+                      font-size: $fs_s_2;
+                      margin: rem-calc($space2) 0;
+                    }
+      
+                    &__copy {
+                      margin-top: rem-calc($space3);
+                      padding: 0 $space;
+                      text-align: center;
+                      font-size: $fs_b;
+                      line-height: rem-calc(28px);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

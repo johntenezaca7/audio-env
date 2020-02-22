@@ -1,0 +1,73 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    position: relative;
+
+    &--img-collage {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: $space;
+      padding-top: $space;
+
+      background-color: $greyWhite;
+
+      .#{$block} {
+        &__two-img-wrap {
+          position: relative;
+          height: rem-calc(550px);
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+          .#{$block} {
+            &__img-item-1 {
+              background-image: url("http://static.misfitsmarket.com/images/MM_floating-img-1.png");
+              background-color: #cccccc;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+
+              position: relative;
+              width: rem-calc(300px);
+              height: rem-calc(300px);
+              z-index: 10;
+            }
+
+            &__img-item-2 {
+              background-image: url("http://static.misfitsmarket.com/images/MM_floating-img-2.png");
+              background-color: #cccccc;
+              background-position: top;
+              background-repeat: no-repeat;
+              background-size: cover;
+
+              position: absolute;
+              z-index: 11;
+              top: rem-calc(55px);
+              right: rem-calc(35px);
+              width: rem-calc(275px);
+              height: rem-calc(400px)
+            }
+          }  
+        }
+  
+        &__single-img {
+          width: calc(100% / 1.1); // TODO: refactor this section :(
+          height: rem-calc(350px);
+          position: relative;
+          left: rem-calc(25px);
+          right: rem-calc(25px);
+          z-index: 10;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

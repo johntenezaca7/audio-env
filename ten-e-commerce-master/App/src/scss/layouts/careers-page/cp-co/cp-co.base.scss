@@ -1,0 +1,113 @@
+
+@import "../../../components/spinner.scss";
+
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--co {
+      background-color: #DDE6C2;
+      height: 100%;
+
+      .#{$block} {
+        &__title-wrapper {
+          h1 {
+            margin: 0;
+            padding-top: $space;
+          }
+        }
+
+        &__co-container {
+          #whr_embed_hook {
+            visibility: hidden;
+            height: 100%;
+            width: 1rem;    
+          }
+        }
+
+        &__send-res {
+          padding: $space4 $space;
+          padding-bottom: $space;
+
+          p {
+            font-size: rem-calc(16px);
+          }
+        }
+      }
+    }
+  }
+
+  #main-container {
+    ul, 
+    li,
+    h3 {
+      list-style-type: none;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h3 {
+      font-size: rem-calc(18px);
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: $space3;
+    width: 100%;
+
+    .#{$block} {
+      &__job-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: calc(100% / 1.2);
+
+        background-color: $white;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding: $space4 $space4;
+
+        box-shadow: 4px 6px #acb590;
+
+        h3 {
+          font-size: rem-calc(20px);
+        }
+
+        ul {
+          line-height: rem-calc(30px);
+        }
+
+        li {
+          font-size: rem-calc(18px);
+        }
+
+        .top {
+          a {
+            display: block;
+          }
+
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .bottom {
+          text-align: left;
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

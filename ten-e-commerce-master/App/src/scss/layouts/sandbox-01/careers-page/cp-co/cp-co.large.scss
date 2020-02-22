@@ -1,0 +1,37 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--co {
+      background-color: #DDE6C2;
+    }
+  }
+
+  #main-container {
+    justify-content: center;
+
+    h3 {
+      font-size: rem-calc(18px);
+    }
+    padding-bottom: $space3;
+
+    .#{$block} {
+      &__job-wrapper {
+        width: calc(100% / 3.2 - 3.2rem);
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+        min-height: rem-calc(125px);
+        justify-content: flex-start;
+        padding: .8rem 1rem;
+
+        .bottom {
+          line-height: rem-calc(28px);
+          p {
+            font-size: rem-calc(18px);
+          }
+        }
+      }
+    }
+  }
+}

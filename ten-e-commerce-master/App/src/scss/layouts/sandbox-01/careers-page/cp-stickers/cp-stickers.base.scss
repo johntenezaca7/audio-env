@@ -1,0 +1,232 @@
+$block: "careers-page";
+
+.#{$block} {
+  position: relative;
+
+  &__sticker-wrapper {
+    position: relative;
+
+    &--mtm {
+      height: 2rem;
+    }
+
+    &--mission {
+      height: 1rem;
+      background-color: $greyWhite;
+    }
+
+    &--gb {
+      height: 0rem;
+    }
+
+    .#{$block} {
+      &__r-side-green {
+        position: absolute;
+        top: -22rem;
+        left: 0;
+
+        width: calc(100% / 1.6);
+        height: 40rem;
+
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__mtm-p-1 {
+        position: relative;
+        width: calc(100% / 1.6);
+        height: 40rem;
+        z-index: 1;
+        left: -2rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__mtm-p-a ,
+      &__mtm-p-b {
+        display: none;
+      }
+
+      &__mt-o-1 {
+        position: absolute;
+        width: 100%;
+        height: 35rem;
+        z-index: 2;
+        top: 15rem;
+        left: -2rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__mtm-p-2 {
+        position: relative;
+        width: calc(100% / 1.2);
+        height: 40rem;
+        z-index: 1;
+        top: -8rem;
+        right: -12rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__mt-o-2 {
+        position: absolute;
+        width: 100%;
+        height: 35rem;
+        z-index: 2;
+        top: 25rem;
+        right: -2rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__m_1 {
+        position: relative;
+        width: 100%;
+        height: 12rem;
+        z-index: 1;
+        top: -4rem;
+        left: 0;
+        right: 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__m_2 {
+        position: relative;
+        width: 3.5rem;
+        height: 22rem;
+        z-index: 1;
+        top: -20rem;
+        left: 0;
+        right: 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__small-m_2 {
+        display: none;
+      }
+
+      &__p_1 {
+        position: absolute;
+        top: -8rem;
+        right: -1rem;
+        width: 6rem;
+        height: 18rem;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__p_2 {
+        position: absolute;
+        top: -28rem;
+        left: 0;
+        width: 6.5rem;
+        height: 34rem;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__sic_1 {
+        position: absolute;
+        top: -16rem;
+        left: 2rem;
+        width: calc(100% / 1.5);
+        height: 22rem;
+        z-index: 4;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__sic_2 {
+        position: absolute;
+        top: -6rem;
+        left: 0rem;
+        width: calc(100% / 1.3);
+        height: 22rem;
+        z-index: 4;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__sic_3 {
+        position: absolute;
+        top: -4rem;
+        right: 0;
+        width: calc(100% / 2);
+        height: 22rem;
+        z-index: 4;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__sic_4 {
+        display: none;
+
+        position: absolute;
+        top: 0rem;
+        right: -2rem;
+        width: calc(100% / 2 );
+        height: 18rem;
+        z-index: 4;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      
+      &__grey-blob {
+        position: relative;
+        width: 100%;
+        height: 8rem;
+        top: 0rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

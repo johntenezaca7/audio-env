@@ -1,0 +1,40 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--benefits {
+      margin-bottom: $space-mid;
+
+      .#{$block} {
+        &__benefits-copy {
+          width: rem-calc(400px);
+        }
+
+        &__icons-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+
+          .#{$block} {
+            &__icon {
+              width: calc(100% / 2.5);
+              margin: $space4 $space4;
+              
+              img {
+                width: 75%;
+                height: 100%;
+              }
+            }
+          }
+        }
+
+        &__s_2 {
+          top: rem-calc(225px);
+          right: 0;
+          width: calc(100% / 5);
+          height: 20rem;
+        }
+      }
+    }
+  }
+}

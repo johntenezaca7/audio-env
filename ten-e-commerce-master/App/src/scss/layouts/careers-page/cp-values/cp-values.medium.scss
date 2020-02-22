@@ -1,0 +1,10 @@
+@import "../../../components/grid/grid.medium.scss";
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--values {
+      position: relative;
+    }
+  }
+}

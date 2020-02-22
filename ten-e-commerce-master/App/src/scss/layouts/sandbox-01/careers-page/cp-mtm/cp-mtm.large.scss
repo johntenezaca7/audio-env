@@ -1,0 +1,10 @@
+@import "../../../components/z-grid/zGrid.large.scss";
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--values {
+      position: relative;
+    }
+  }
+}

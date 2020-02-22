@@ -1,0 +1,13 @@
+// Screensize: 881px
+@include medium { 
+  @import "./cp-stickers/cp-stickers.medium.scss";
+  @import "./cp-benefits/cp-benefits.medium.scss";
+  @import "./cp-mission/cp-mission.medium.scss";
+  @import "./cp-offices/cp-offices.medium.scss";
+  @import "./cp-img-collage/cp-ic.medium.scss";
+  @import "./cp-values/cp-values.medium.scss";
+  @import "./cp-press/cp_press.medium.scss";
+  @import "./cp-mtm/cp-mtm.medium.scss";
+  @import "./cp-cta/cp-cta.medium.scss";
+  @import "./cp-co/cp-co.medium.scss";
+}

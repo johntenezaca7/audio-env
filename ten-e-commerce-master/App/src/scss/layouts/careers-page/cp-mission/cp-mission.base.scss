@@ -1,0 +1,95 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--mission {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      height: rem-calc(1250px);
+      background-color: $greyWhite;
+
+      .#{$block} {
+        &__mission-wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: $space5 0;
+          z-index: 10;
+
+          h1 {
+            text-transform: uppercase;
+            letter-spacing: rem-calc(5px);
+            font-size: rem-calc(30px);
+            margin-bottom: rem-calc(30px);
+          }
+
+          .#{$block} {
+            &__copy-top,
+            &__copy-bottom {
+              width: rem-calc(375px);
+              line-height: rem-calc(35px);
+              font-size: $fs_s_2;
+            }
+          }
+        }
+
+        &__imgs-container {
+          position: relative;
+          height: rem-calc(500px);
+
+          .#{$block} {
+            &__img {
+              display: block;
+
+              &--a {
+                background-image: url("http://static.misfitsmarket.com/images/MM_i-block-m_1.png");
+                background-color: #cccccc;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                width: rem-calc(200px);
+                height: rem-calc(350px);
+                position: absolute;
+                z-index: 0;
+              }
+
+
+              &--b {
+                background-image: url("http://static.misfitsmarket.com/images/MM_i-block-m_2.png");
+                background-color: #cccccc;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                width: rem-calc(220px);
+                height: rem-calc(220px);
+                position: absolute;
+                right: rem-calc(25px);
+                top: rem-calc(25px);
+              }
+
+              &--c {
+                background-image: url("http://static.misfitsmarket.com/images/MM_i-block-m_3.png");
+                background-color: #cccccc;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                width: rem-calc(350px);
+                height: rem-calc(175px);
+                position: absolute;
+                bottom: rem-calc(25px);
+                right: rem-calc(25px);
+                z-index: 5;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

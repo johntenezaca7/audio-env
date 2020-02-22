@@ -1,0 +1,17 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--benefits {    
+      .#{$block} {
+        &__icons-container {
+          .#{$block} {
+            &__icon {
+              width: calc(100% / 9);
+            }
+          }
+        }
+      }
+    }
+  }
+}

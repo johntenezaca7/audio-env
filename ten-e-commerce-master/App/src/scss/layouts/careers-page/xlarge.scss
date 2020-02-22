@@ -1,0 +1,13 @@
+// $bp_xl: 1540px;
+@include xlarge { 
+  @import "./cp-stickers/cp-stickers.xlarge.scss";
+  @import "./cp-benefits/cp-benefits.xlarge.scss";
+  @import "./cp-mission/cp-mission.xlarge.scss";
+  @import "./cp-offices/cp-offices.xlarge.scss";
+  @import "./cp-img-collage/cp-ic.xlarge.scss";
+  @import "./cp-values/cp-values.xlarge.scss";
+  @import "./cp-press/cp_press.xlarge.scss";
+  @import "./cp-mtm/cp-mtm.xlarge.scss";
+  @import "./cp-cta/cp-cta.xlarge.scss";
+  @import "./cp-co/cp-co.xlarge.scss";
+}

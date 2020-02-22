@@ -1,0 +1,70 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--co {
+      background-color: #DDE6C2;
+      .#{$block} {
+        &__title-wrapper {
+          h1 {
+            margin: 0;
+            padding-top: $space;
+          }
+        }
+
+        &__co-container {
+          #whr_embed_hook {
+            visibility: hidden;
+            height: 100%;
+            width: 1rem;    
+          }
+        }
+
+        &__send-res {
+          padding: $space4 $space;
+          padding-bottom: $space;
+
+          p {
+            font-size: rem-calc(16px);
+          }
+        }
+      }
+    }
+  }
+
+  #main-container {
+    padding-bottom: $space3;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .#{$block} {
+      &__job-wrapper {
+        justify-content: space-evenly;
+
+        width: calc(100% / 2.3 - 2.3rem);
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        padding: rem-calc(15px) rem-calc(13px);
+        min-height: rem-calc(100px);
+
+        h3 {
+          font-size: rem-calc(18px);
+          margin-bottom: $space3;
+        }
+
+        ul {
+          line-height: rem-calc(24px);
+        }
+
+        li {
+          font-size: rem-calc(16px);
+        }
+
+        .top {
+          align-items: baseline;
+        }
+      }
+    }
+  }
+}

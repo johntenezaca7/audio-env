@@ -1,0 +1,9 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--co {
+      background-color: #DDE6C2;
+    }
+  }
+}

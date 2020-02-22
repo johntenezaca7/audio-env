@@ -1,0 +1,26 @@
+$block: "careers-page";
+
+.#{$block} {
+  &__container {
+    &--offices {
+      .#{$block} {      
+        &__locations-container {
+          .#{$block} {
+            &__location-wrapper {
+              .#{$block} {
+                &__img-wrapper {
+                  img {
+                    height: rem-calc(400px);
+                  }
+                }
+                &__details-wrapper {
+                  padding: 1rem 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
