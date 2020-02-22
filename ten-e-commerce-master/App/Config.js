@@ -10,7 +10,7 @@ const sandbox_01 = "Sandbox-01";
 exports.jsFile  = sandbox_01;
 exports.scssFile = sandbox_01;
 
-// exports.app = _APP_;
+exports.app = _APP_;
 // exports.user = _USER_;
 // -------------------------------
 // Make sure to point this to the correct file!
